@@ -14,8 +14,6 @@ def index():
     return render_template('app.html')
 
 
-
-
 @application.route('/students', methods=['POST', 'GET', 'PUT', 'DELETE'])
 def students():
     result = {"success": False}
